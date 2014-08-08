@@ -1,0 +1,52 @@
+@media #{$small-up} { 
+	body{
+		display: table;
+		width: 100%;
+		height: 100%;
+
+	}
+	//menu arriba
+	/*top bar*/
+	header{
+		background: #fff;
+		width: 100%;
+		float: left;
+		border:1px solid #FAF8F8;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	footer{
+		display: table-row;
+		background: #1C2239;
+		color: #909AC2;
+		width: 100%;
+		padding-top: 5px;
+		padding-bottom: 5px;
+
+	}
+	.row.full-width{
+		width: 100%;
+		max-width: 100%;
+	}
+	//menu izquierdo rotador
+	/*nav-left*/
+	.menu-left{
+		background: #1C2239;
+		color: #909AC2;
+	}
+	.rotate{
+		background: #F66142;
+		color: #909AC2;
+		padding-left: 0px;
+		padding-right: 0px;
+		.img-full{
+			max-width:100% !important;
+			display: block;
+		}
+	}
+	.project-map{
+		background-color: #FD5D42;
+
+	}
+
+}
