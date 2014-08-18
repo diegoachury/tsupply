@@ -31,6 +31,8 @@
 	//menu izquierdo rotador
 	/*nav-left*/
 	.menu-left{
+		position: absolute;
+		min-height: 100%;
 		background: #1C2239;
 		color: #909AC2;
 	}
@@ -45,8 +47,13 @@
 		}
 	}
 	.project-map{
-		background-color: #FD5D42;
+		background-color: #2ecc71;
 
+	}
+	.maps{
+		position: relative;
+		width: 100%;
+		height: 400px;
 	}
 
 }
